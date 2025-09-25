@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hometown</title>
+  <link rel="icon" href="data:,">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  
+  <link href="./assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="./index.html">Puspita's Website</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="nav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./profile.html">Profile</a></li>
+        <li class="nav-item"><a class="nav-link active" href="./hometown.html">Hometown</a></li>
+        <li class="nav-item"><a class="nav-link" href="./food.html">Local Food</a></li>
+        <li class="nav-item"><a class="nav-link" href="./tourist.html">Tourist Places</a></li>
+        <li class="nav-item ms-lg-2">
+          <button class="btn nav-link" id="theme-toggle" aria-label="Toggle theme">
+            <i class="bi bi-moon-stars-fill"></i>
+          </button>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="showcase-gradient">
+
+  <header class="py-5">
+    <div class="container">
+      <h1 class="showcase-headline">Kediri</h1>
+      <p class="showcase-subtitle">The Spirit of Java</p>
+    </div>
+  </header>
+
+  <main class="container py-5">
+    <div class="content-wrapper">
+      <section class="mb-5">
+        <h2 class="h4 fw-bold mb-3">Overview</h2>
+          <figure class="figure">
+            <img src="./assets/img/gumul.jpg" class="figure-img img-fluid rounded" alt="SLG">
+            <figcaption class="figure-caption text-center">Source: https://wartakota.tribunnews.com</figcaption>
+        </figure>
+        <p>Kediri is a district located in the East Java Province, Indonesia. Kediri Regency is divided into 26 districts. Furthermore, its geography is flanked by two mountains of different nature: Mount Kelud to the east, which is volcanic, and Mount Wilis to the west, which is non-volcanic. 
+          Meanwhile, right in the center of Kediri Regency runs the Brantas River, dividing the regency into two parts: the western part of the Brantas River, which consists of the hilly slopes of Mount Wilis and Mount Klotok, and the eastern part of the Brantas River.</p>
+      </section>
+      
+      <section>
+        <h2 class="h4 fw-bold mb-3">Highlights</h2>
+        <ul>
+          <li>History: Initially, the name Panjalu was better known than Kadiri. The Panjalu Kingdom then gradually expanded and became known as the Kediri Kingdom, a large kingdom whose history remains renowned to this day.</li>
+          <li>Economy: Kediri's main industries are sugar and cigarettes, making the city a production center for these two commodities in Indonesia.</li>
+          <li>Culture:
+            <ul>
+              <li>Jaranan: A traditional dance deeply rooted in Kediri, showcasing the dancers' skillful imitation of horse movements.</li>
+              <li>Wayang Krucil: A puppet show that combines local folklore and has become a popular attraction.</li>
+              <li>Wayang Kulit and Wayang Orang: Wayang performances tell epic stories such as the Mahabharata or Ramayana, with a strong pre-Islamic cultural acculturation.</li>
+            </ul>
+          </li>
+          <li>Access: To get from Surabaya to Kediri, there's a bus service several times daily, usually operating from Bungurasih Terminal. Another option is to take the train from Surabaya Station (SGU) to Kediri.</li>
+        </ul>
+      </section>
+    </div>
+
+  </main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/js/script.js"></script>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
